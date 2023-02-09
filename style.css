@@ -1,8 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container-fluid{
+    background-color: aquamarine;
+    position: relative;
+}
+
+div .navbar{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div .navbar img{
+    width: 12vh;
+}
+
+.container-fluid-2{
     background-color: #7F562F !important;
 }
 
 .carousel > img{
-    width: ;
-    height: ;
+    margin-bottom:10em;
+    width: 1200px;
+    height: 100vh;
+}
+
+a img{
+    width: 15em;
+    height: auto;
+    padding: 1.5em;
+    align-items: center;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+a img:active{
+    box-shadow: inset;
+}
+
+/*  publicidad  */
+.conteiner-publicidad{
+    display: flex;
+    width: 100%;
+}
+
+.div .card{
+    width: 10em;
+}
+
+.card-publicidad{
+    padding: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-publicidad a img{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*   Logitos negros con titulos*/
+
+.container-fluid-3 div{
+    display: flex;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.container-fluid-3 div svg{
+    width: 6em;
+    position: top;
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.container-fluid-3 div h2{
+    font-size: 1em;
 }
